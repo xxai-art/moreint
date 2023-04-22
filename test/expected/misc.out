@@ -1,0 +1,14 @@
+SELECT - '5'::i8;
+ ?column? 
+----------
+ -5
+(1 row)
+
+SELECT - '127'::i8;
+ ?column? 
+----------
+ -127
+(1 row)
+
+SELECT - '-128'::i8;
+ERROR:  integer out of range

@@ -1,0 +1,43 @@
+-- reference
+SELECT hashint4(55);
+  hashint4  
+------------
+ -305105437
+(1 row)
+
+SELECT hashoid(55);
+  hashoid   
+------------
+ -305105437
+(1 row)
+
+SELECT hashi8(55::i8);
+  hashi8  
+------------
+ -305105437
+(1 row)
+
+SELECT hashu8(55::u8);
+ hashu8  
+------------
+ -305105437
+(1 row)
+
+SELECT hashu16(55::u16);
+ hashu16  
+------------
+ -305105437
+(1 row)
+
+SELECT hashu32(55::u32);
+ hashu32  
+------------
+ -305105437
+(1 row)
+
+SELECT hashu64(55::u64);
+ hashu64  
+------------
+ -305105437
+(1 row)
+
